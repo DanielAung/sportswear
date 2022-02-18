@@ -7,11 +7,21 @@
     <title>index</title>
 </head>
 <body>
-    <h1>Hello</h1>
-    <div>
-        <p>KYAW KYAW ipsum dolor sit amet consectetur adipisicing elit. Pariatur officiis repudiandae, exercitationem incidunt recusandae aliquid vitae expedita voluptatibus, eveniet nostrum, voluptas aut facere! Quam delectus ut incidunt sapiente esse praesentium!</p>
+<nav>
+    <img src="logo.jpg" alt="">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a></li>
+            <li><a href="#">feedback</a></li>
+        </ul>
+    </nav>
+    <div class="section">
+        <h1>Far Cry 6 Game Release</h1>
+        <div class="image-container">
+           <img src="./images/awaybackground.jpg" alt="">
+        </div>
     </div>
-    <h2>world</h2>
-    <h3>mg mg</h3>
+
 </body>
 </html>
