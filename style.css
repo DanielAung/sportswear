@@ -48,6 +48,9 @@ nav ul li a {
 }
 
 .image-container {
-	height: 21px;
+	background-image: url(./images/awaybackground.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
