@@ -3,7 +3,7 @@ include('connect.php');
 
 if(isset($_POST['btnsubmit'])) {
     $name = $_POST['txtbrandname'];
-
+    print_r($_FILES['fileToUpload']['name']);
     
     $checkQuery = "SELECT * FROM brand
                    WHERE name = '$name'
